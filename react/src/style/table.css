@@ -1,0 +1,33 @@
+/* .dt-paging{
+    display: flex;
+    justify-content: center;
+}
+.dt-paging nav{
+    display: flex;
+    gap: 10px;
+}
+.dt-paging nav .dt-paging-button{
+    min-width: 30px;
+    padding: 1px;
+    height: 30px;
+    font-weight: bolder;
+}
+.dt-paging nav .next,
+.dt-paging nav .previous,
+.dt-paging nav .first,
+.dt-paging nav .last {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.dt-layout-row{
+    display: flex;
+    gap: 100px;
+}
+.dt-body-nowrap {
+    white-space: nowrap;
+ } */
+
+ .table-wrap{
+    max-width: 1024px;
+    margin: auto;
+ }
