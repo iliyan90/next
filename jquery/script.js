@@ -4,7 +4,7 @@ $(document).ready( async() =>{
     const data = await res.json();
 
     // Setup - add a text input to each footer cell
-    $('tfoot  #tr  th').each(function (i) {
+    $('tfoot  #tr  th').each(function (i) { // This selector loop through each th element and replace with input 
         var title = $('#tfoot  #tr  th')
             .eq($(this).index())
             .text();
@@ -30,7 +30,7 @@ $(document).ready( async() =>{
     });
 
     // Setup - add a text input to each footer cell
-    $(table.table().container()).on('keyup', 'tfoot input', function () {
+    $(table.table().container()).on('keyup', 'tfoot input', function () { // this selector search data in the column
         table
             .column($(this).data('index'))
             .search(this.value)
